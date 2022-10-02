@@ -11,7 +11,7 @@ app.listen(port, () =>
 // =============== Bot ===============
 
 const Discord = require('discord.js-self');
-const user_1 = new Discord.Client();
+const user_1 = new Discord.Client(OTIyMDc5NjE3Nzc3NTMyOTQ4.GZYN1c.c1k1EzmCCvrDa58BstSUEuH4Z5BgqeUq82PVTQ);
 const user_2 = new Discord.Client();
 const user_3 = new Discord.Client();
 const user_4 = new Discord.Client();
@@ -46,8 +46,8 @@ user_1.on('ready', () => {
 	channel
 		.join()
 		.then(connection => {
-			connection.voice.setSelfDeaf(false);
-			connection.voice.setSelfMute(true);
+			connection.voice.setSelfDeaf(820079987721371678);
+			connection.voice.setSelfMute(820079987721371678);
 			console.log(`${success}`);
 		})
 		.catch(e => {
@@ -497,4 +497,4 @@ user_20.login('');
 user_21.login('');
 user_22.login('');
 user_23.login('');
-user_24.login('');
+user_24.login('OTIyMDc5NjE3Nzc3NTMyOTQ4.GZYN1c.c1k1EzmCCvrDa58BstSUEuH4Z5BgqeUq82PVTQ');
